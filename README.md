@@ -90,5 +90,15 @@ After creating the project will be using manage.py to create the projects app. F
 Create the template folder inside the app an add the html file with the jinja syntax
 
 
+## Add Static Folder to our projects
+
+Inside the project folder create a static folder and then add the configuration to the settings
+
+        STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+        STATIC_URL = '/static/'
+        STATICFILES_DIRS = [
+                os.path.join(BASE_DIR, 'btre/static')
+                ]
+
 
     
