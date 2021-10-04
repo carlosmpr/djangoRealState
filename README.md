@@ -85,6 +85,10 @@ After creating the project will be using manage.py to create the projects app. F
             ]
 
 
+## Create a Template folder
+
+Create the template folder inside the app an add the html file with the jinja syntax
+
 
 
     
